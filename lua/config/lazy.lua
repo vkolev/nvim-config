@@ -15,8 +15,10 @@ require("lazy").setup({
         -- { import = "lazyvim.plugins.extras.lang.json" },
         -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
         -- import/override with your plugins
+        { import = "lazyvim.plugins.extras.lsp.none-ls" },
         { import = "plugins.extra.lang.python" },
         { import = "plugins.symbols" },
+        { import = "plugins.nim" },
     },
     defaults = {
         -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
